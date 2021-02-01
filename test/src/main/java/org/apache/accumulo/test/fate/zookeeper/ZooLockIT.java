@@ -35,7 +35,6 @@ import org.apache.accumulo.fate.zookeeper.ZooLock.AsyncLockWatcher;
 import org.apache.accumulo.fate.zookeeper.ZooLock.LockLossReason;
 import org.apache.accumulo.fate.zookeeper.ZooReaderWriter;
 import org.apache.accumulo.test.zookeeper.ZooKeeperTestingServer;
-import org.apache.accumulo.harness.AccumuloITBase;
 import org.apache.zookeeper.CreateMode;
 import org.apache.zookeeper.WatchedEvent;
 import org.apache.zookeeper.Watcher;
@@ -46,7 +45,7 @@ import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-public class ZooLockIT extends AccumuloITBase {
+public class ZooLockIT {
 
   private static ZooKeeperTestingServer szk = null;
 
